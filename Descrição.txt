@@ -1,0 +1,101 @@
+SISTEMA DE UTILIDADE PUBLICA - SUP
+
+Descroçõa:
+
+Normas e Regras:
+
+
+Plataformas Iniciais:
+ - Mobile
+   - Android
+   - IOS
+- Web: APenas para descriçõa e apresentação, para mostrar os serviços, dados e resultados, fazer dowload da app, e ter alguns serviços básicos
+
+__________
+
+Funcionalidades iniciais:
+1ª fase -  Population:
+- Altenticação e cadastro
+  - Com google, e outras ferramentas.
+  - Encriptação;
+  - Manter sessão iniciada para casos de emergência;
+- Contactos de emergencia;
+  - Ver lista completa.
+  - Pesquisar.
+  - Encontrar o + próximo automaticamente.
+  - 
+- Indicações de segurança;
+  - Ver lista.
+  - Ver 1, descrição completa.
+  - Partilhar.
+  - Cópiar.
+  - perguntar para a IA em relação a este tema.
+  - Denunciar.
+  - Ver número de visualizações.
+- Alertas de segurança;
+  - Ver lista.
+  - Ver 1, descrição completa.
+  - Partilhar.
+  - Cópiar.
+  - perguntar para a IA em relação a este tema.
+  - Denunciar.
+  - Ver número de visualizações.
+- Instruções de primeiros-socorros
+  - Ver lista.
+  - Ver 1, descrição completa.
+  - Partilhar.
+  - Cópiar.
+  - perguntar para a IA em relação a este tema.
+  - Denunciar.
+  - Ver número de visualizações.
+- IA talking. 
+IA: 
+  - Avaliar, aprovar, organizar, audio para texto, avaliar a seriedade:
+    - Contactos de emergencia;
+    - Indicações de segurança;
+    - Alertas de segurança;
+    - Instruções de primeiros-socorros
+
+2º fase - Company:
+ - Altenticação e cadastro
+   - Com google, e outras ferramentas.
+   - Encriptação;
+- Descrição.
+  - Localização.
+  - Tipo.
+  - Serviços.
+- Criar um perfil
+  - Imagem de perfil
+  - Localização
+  - Nome;
+  - Descrição;
+- Lista de serviços e produtos;
+- Gerar relatórios;
+  - Semanais;
+  - Mensais;
+  - Trimestrais;
+  - Simestrais;
+  - Anuais.
+- Publicações:
+  - Fazer.
+  - Editar;
+  - Eliminar;
+  - Ocultar;
+- Realizaçõa, conquistar, historico da entidade,
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

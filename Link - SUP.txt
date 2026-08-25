@@ -1,0 +1,138 @@
+- Usar API para conecções com banco de dados:
+  SistemaUtilidadePublica
+        │
+        ↓
+    ASP.NET API
+        │
+        ↓
+    SQL Server
+
+- Estutura desejada: 
+SistemaUtilidadePublica/
+│
+├── Features/
+│   │
+│   ├── Authentication/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   │
+│   ├── Emergency/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   │
+│   ├── Alerts/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   │
+│   ├── FirstAid/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   │
+│   └── Security/
+│       ├── Views/
+│       ├── ViewModels/
+│       └── Models/
+│
+├── Services/
+│   ├── Authentication/
+│   ├── Emergency/
+│   ├── Location/
+│   ├── Notification/
+│   └── Api/
+│
+├── Infrastructure/
+│   ├── Api/
+│   ├── Storage/
+│   └── Authentication/
+│
+├── Common/
+│   ├── Constants/
+│   ├── Extensions/
+│   └── Helpers/
+│
+├── Resources/
+│
+├── Platforms/
+│
+├── App.xaml
+├── App.xaml.cs
+└── MauiProgram.cs
+
+- Outra estrutura mais detalhista para o algumas pastas(para entender o funcionamento):
+SistemaUtilidadePublica/
+│
+├── Features/
+│   │
+│   ├── Authentication/
+│   ├── Emergency/
+│   ├── Alerts/
+│   ├── FirstAid/
+│   └── Security/
+│
+├── Services/
+│   ├── Authentication/
+│   │   └── AuthenticationService.cs
+│   │
+│   ├── Emergency/
+│   │   └── EmergencyService.cs
+│   │
+│   ├── Location/
+│   │   └── LocationService.cs
+│   │
+│   ├── Notification/
+│   │   └── NotificationService.cs
+│   │
+│   └── AI/
+│       └── AIService.cs
+│
+├── Infrastructure/
+│   │
+│   ├── Api/
+│   │   ├── ApiClient.cs
+│   │   └── ApiConfiguration.cs
+│   │
+│   ├── Database/
+│   │   ├── AppDbContext.cs
+│   │   └── Configurations/
+│   │
+│   ├── Authentication/
+│   │   └── TokenStorage.cs
+│   │
+│   └── AI/
+│       ├── OpenAI/
+│       └── Gemini/
+│
+├── Common/
+├── Resources/
+├── Platforms/
+│
+├── App.xaml
+├── App.xaml.cs
+└── MauiProgram.cs
+
+API estrutra:
+SistemaUtilidadePublica.Api/
+│
+├── Controllers/
+│
+├── Services/
+│
+├── Models/
+│
+├── DTOs/
+│
+├── Data/
+│
+├── Infrastructure/
+│
+├── Common/
+│
+├── Middleware/
+│
+├── Program.cs
+├── appsettings.json
+└── appsettings.Development.json

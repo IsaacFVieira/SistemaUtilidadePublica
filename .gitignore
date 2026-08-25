@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+[Bb]in/
+[Oo]bj/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+
+# MAUI
+**/Platforms/Android/bin/
+**/Platforms/iOS/bin/
+**/Platforms/MacCatalyst/bin/
+**/Platforms/Windows/bin/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Segredos e configurações locais
+appsettings.Development.json
+.env
+.env.*
+
+# Credenciais
+*.pem
+*.key
+
+# SQL Server database files
+*.mdf
+*.ldf
