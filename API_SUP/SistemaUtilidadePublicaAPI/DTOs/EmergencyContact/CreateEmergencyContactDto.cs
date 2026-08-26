@@ -27,6 +27,20 @@ namespace SistemaUtilidadePublicaAPI.DTOs.EmergencyContact
         public int Id_EmergencyContactType { get; set; }
 
         [Required]
-        public int Id_Location { get; set; }
+        public decimal Latitude { get; set; }
+
+        [Required]
+        public decimal Longitude { get; set; }
+
+        [Required]
+        public string Bairro { get; set; } = string.Empty;
+
+        [Required]
+        public string Municipio { get; set; } = string.Empty;
+
+        [Required]
+        public string Provincia { get; set; } = string.Empty;
+
+
     }
 }

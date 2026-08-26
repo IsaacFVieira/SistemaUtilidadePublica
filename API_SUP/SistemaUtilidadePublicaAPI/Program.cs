@@ -23,6 +23,8 @@ builder.Services.AddScoped<SqlConnectionFactory>();
 // Repositories
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<EmergencyContactRepository>();
+builder.Services.AddScoped<LocationRepository>();
+
 
 
 // Services

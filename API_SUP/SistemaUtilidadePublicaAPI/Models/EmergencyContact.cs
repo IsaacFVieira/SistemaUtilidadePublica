@@ -8,6 +8,7 @@
         public string? PhoneNumber { get; set; }
         public string? PhoneNumber2 { get; set; } 
         public string? Address { get; set; }
+        //public int TypeContact { get; set; }
         public int Id_EmergencyContactType { get; set; }
         public int Id_Location { get; set; }
         public bool IsActive { get; set; } 
