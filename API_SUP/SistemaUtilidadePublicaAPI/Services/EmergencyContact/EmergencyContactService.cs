@@ -2,6 +2,7 @@
 using SistemaUtilidadePublicaAPI.DTOs.EmergencyContact;
 using SistemaUtilidadePublicaAPI.Models;
 using SistemaUtilidadePublicaAPI.Common.Exceptions;
+using SistemaUtilidadePublicaAPI.DTOs;
 
 namespace SistemaUtilidadePublicaAPI.Services.EmergencyContact
 {
@@ -68,6 +69,11 @@ namespace SistemaUtilidadePublicaAPI.Services.EmergencyContact
         public async Task<List<EmergencyContactResponseDto>> GetNearestEmergencyContactsAsync(NearestEmergencyContactRequestDto dto)
         {
             return await _emergencyContactRepository.GetNearestByCategoryAsync(dto);
+        }
+
+        public async Task<List<EmergencyContactResponseDto>> SearchEmergencyContactsAsync(searchDto dto, NearestEmergencyContactRequestDto locationDto)
+        {
+            return await _emergencyContactRepository.GetSearchEmergencyContactsAsync(dto, locationDto);
         }
 
 

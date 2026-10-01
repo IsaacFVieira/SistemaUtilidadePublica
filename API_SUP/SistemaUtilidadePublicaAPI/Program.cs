@@ -1,7 +1,9 @@
 using SistemaUtilidadePublicaAPI.Data;
 using SistemaUtilidadePublicaAPI.Data.Repositories;
 using SistemaUtilidadePublicaAPI.Middleware;
+using SistemaUtilidadePublicaAPI.Services.AI;
 using SistemaUtilidadePublicaAPI.Services.Authentication;
+using SistemaUtilidadePublicaAPI.Services.Content;
 using SistemaUtilidadePublicaAPI.Services.EmergencyContact;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,12 +26,15 @@ builder.Services.AddScoped<SqlConnectionFactory>();
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<EmergencyContactRepository>();
 builder.Services.AddScoped<LocationRepository>();
-
+builder.Services.AddScoped<ContentService>();
+builder.Services.AddScoped<ContentRepository>();
+builder.Services.AddHttpClient<AIService>();
 
 
 // Services
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<EmergencyContactService>();
+
 
 
 // ==========================================
